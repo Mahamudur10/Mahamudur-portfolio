@@ -68,28 +68,28 @@ const Projects = () => {
             id: 2,
             title: "Portfolio Website",
             description: "Modern animated portfolio website built with Next.js and Tailwind CSS. Features smooth animations and responsive design.",
-            image: "/projects/portfolio.jpg",
+            image: "/portfolio.jpg",
             tech: [
                 { name: "Next.js", icon: SiNextdotjs, color: "text-gray-800" },
                 { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-teal-500" },
                 { name: "JavaScript", icon: FaJs, color: "text-yellow-500" }
             ],
-            github: "https://github.com/Mahamudur10/portfolio",
-            live: "https://mahamudur.dev",
+            github: "https://github.com/Mahamudur10/Mahamudur-portfolio",
+            live: "https://mahamudur-portfolio.vercel.app/",
             featured: true
         },
         {
             id: 3,
-            title: "Task Management App",
-            description: "Task management application with drag-drop functionality, user authentication, and real-time updates.",
-            image: "/projects/taskapp.jpg",
+            title: "Borrow-Book Digital Library Platform",
+            description: "A complete digital platform for managing library book borrowing, returns, and user subscriptions with real-time tracking.",
+            image: "/borrow book.jpg",
             tech: [
                 { name: "React", icon: FaReact, color: "text-cyan-500" },
                 { name: "Firebase", icon: SiFirebase, color: "text-yellow-600" },
                 { name: "CSS3", icon: FaCss3Alt, color: "text-blue-500" }
             ],
-            github: "https://github.com/Mahamudur10/taskmanager",
-            live: "https://taskmanager.demo.com",
+            github: "https://github.com/Mahamudur10/Assignment-8-Batch-13",
+            live: "https://assignment-8-batch-13.vercel.app/",
             featured: false
         },
         {

@@ -48,7 +48,6 @@ const Education = () => {
             location: "Dhaka, Bangladesh",
             period: "2022 - Present",
             grade: "CGPA: 3.50 / 4.00",
-            achievements: ["Dean's List Award", "Scholarship Recipient"],
             icon: FaGraduationCap,
             color: "from-blue-500 to-cyan-500",
             bgColor: "bg-blue-50",
@@ -62,7 +61,6 @@ const Education = () => {
             location: "Savar, Dhaka",
             period: "2019 - 2021",
             grade: "GPA: 4.67 / 5.00",
-            achievements: ["Science Group", "Merit Position"],
             icon: MdOutlineSchool,
             color: "from-purple-500 to-pink-500",
             bgColor: "bg-purple-50",
@@ -76,7 +74,6 @@ const Education = () => {
             location: "Dhaka, Bangladesh",
             period: "2017 - 2019",
             grade: "GPA: 4.56 / 5.00",
-            achievements: ["Science Group", "Golden GPA"],
             icon: FaSchool,
             color: "from-green-500 to-emerald-500",
             bgColor: "bg-green-50",
@@ -150,25 +147,6 @@ const Education = () => {
                                 <div className={`px-3 py-1 ${edu.bgColor} rounded-full text-sm font-semibold ${edu.iconColor}`}>
                                     <FaAward className="inline mr-1 text-xs" />
                                     {edu.grade}
-                                </div>
-                            </div>
-
-                            {/* Key Achievements */}
-                            <div className="pt-2">
-                                <p className="text-sm font-semibold text-gray-700 mb-2 flex items-center gap-1">
-                                    <FaTrophy className="text-yellow-500 text-xs" />
-                                    Key Achievements:
-                                </p>
-                                <div className="flex flex-wrap gap-2">
-                                    {edu.achievements.map((achievement, idx) => (
-                                        <span
-                                            key={idx}
-                                            className={`text-xs px-3 py-1 ${edu.bgColor} rounded-full text-gray-700 flex items-center gap-1`}
-                                        >
-                                            <FaStar className={`text-xs ${edu.iconColor}`} />
-                                            {achievement}
-                                        </span>
-                                    ))}
                                 </div>
                             </div>
                         </div>

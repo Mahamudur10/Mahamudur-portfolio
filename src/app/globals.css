@@ -240,3 +240,52 @@
 .delay-2000 {
   animation-delay: 2s;
 }
+
+@media (max-width: 640px) {
+  #skills {
+    scroll-margin-top: 60px;
+  }
+  
+  
+  #skills button {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  
+  .transition-all {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+/* Tablet optimization */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #skills .grid {
+    gap: 1rem;
+  }
+}
+
+/* Extra small devices (যেমন iPhone SE, Galaxy Fold) */
+@media (max-width: 380px) {
+  .xs\:inline-block {
+    display: inline-block;
+  }
+  
+  .xs\:hidden {
+    display: none;
+  }
+}
+
+.xs\:inline-block {
+  display: none;
+}
+
+@media (min-width: 381px) {
+  .xs\:inline-block {
+    display: inline-block;
+  }
+  
+  .xs\:hidden {
+    display: none;
+  }
+}
